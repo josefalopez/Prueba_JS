@@ -1,0 +1,87 @@
+body {
+	padding-top: 50px;
+	background-image: url(../images/kitten.jpg);
+	background-repeat: repeat;
+}
+h1 {
+	color: white;
+	font-size: 50px;
+	background-color: rgba(23, 162, 184, 0.8);
+}
+h3 {
+	font-family: calibri;
+	border-top: 1px solid #c1c1c1;
+	margin: 20px 0 10px 0;
+
+}
+.jumbotron {
+	background-image: url(../images/back.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.col_izq h3 {
+	color: #17a2b8;
+}
+.cuadro_crear {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 3px 0 #c3c3c3, 0 14px 10px rgba(0,0,0,0.25);
+	background-color: #f3f3f3;
+	padding: 15px;
+	box-sizing: border-box;
+}
+.selection_file {
+	font-size: 10px;
+	height: 30px;
+}
+.foto {
+	border-radius: 50%;
+	border: 5px solid #17a2b8;
+	width: 150px;
+}
+.col_der {
+	padding-top: 10px;
+	border-radius: 5px;
+	box-shadow: 0 3px 0 #c3c3c3, 0 14px 10px rgba(0,0,0,0.25);
+	background-color: #17a2b8;
+	box-sizing: border-box;
+}
+.col_der h3 {
+	color: white;
+}
+.lista_tweets {
+	padding-bottom: 30px;
+	box-sizing: border-box;
+}
+.cuadro_tweet {
+	background-color: white;
+	padding: 15px;
+	border-radius: 5px;
+	margin-top: 15px;
+}
+.cuadro_tweet img {
+	border-radius: 50%;
+	border: 5px solid #c1c1c1;
+	width: 150px;
+}
+.reaction {
+	color: #ccc;
+	text-align: right;
+}
+.reaction a {
+	text-decoration: none;
+}
+.heart_gray {
+	display: inline-block;
+	margin-right: 40px;
+	color: #ccc;
+	font-size: 20px;
+	cursor: pointer;
+}
+.heart_gray--red {
+  color: tomato;
+}
+.reaction button {
+	display: inline-block;
+}
