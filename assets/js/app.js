@@ -80,7 +80,11 @@ $(document).ready(function(){
 
 	//Clic del botón 'btn-elim' elimina al abuelo que es 'cuadro_tweet'
 	$('.lista_tweets').on('click', '.btn-elim', function(evt){
-		$(this).parents('.cuadro_tweet').remove();
+		$(this).parents('.cuadro_tweet').fadeOut(500, function(){
+			$(this).remove();
+		});
 	});
+
+
 
 });
